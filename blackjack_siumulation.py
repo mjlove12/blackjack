@@ -224,8 +224,8 @@ if __name__=="__main__":
     for i in player_values:
         scenario_log[i] = 0.0
         hits_log[i] = 0.0
-    f = open('/Users/mattlove/pythonprojects/blackjack_prob.csv', 'w')
-    g = open('/Users/mattlove/pythonprojects/blackjack_stats.csv', 'w')
+    f = open('blackjack_prob.csv', 'w')
+    g = open('blackjack_stats.csv', 'w')
 
     for key in results:
         f.write(str(key[0])+'\t'+str(key[1])+'\t'+str(results[key])+'\n')
